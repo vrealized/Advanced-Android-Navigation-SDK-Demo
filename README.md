@@ -41,18 +41,15 @@ Camera Perspective: Switch between a tilted, following perspective and a top-dow
 Stable Location Handling: Implements a hybrid location strategy, using FusedLocationProviderClient for idle state and Navigator's internal listeners during navigation to ensure smooth and accurate icon movement in all scenarios (including simulation).
 Performance Optimized: Avoids common pitfalls like Application Not Responding (ANR) errors by managing UI updates on the main thread correctly.
 Clean UI Layout: Utilizes NavigationView's setCustomControl with a FOOTER position to ensure control buttons are always visible and do not overlap with the Google logo or other essential UI elements.
+
 📸 Screenshots
-<img width="1280" height="2856" alt="image" src="https://github.com/user-attachments/assets/c1b398eb-cea9-475b-b24e-b0383f1f19b4" />
-
-
+<img width="1280" height="2856" alt="80e0f18b328a60623a85e1b590335321" src="https://github.com/user-attachments/assets/9d05abff-b520-4284-b28c-b54af20484ff" />
 
 Idle State	Navigation with Custom Icon
-![Screenshot of the app in its idle state, showing the origin/destination input panel.]<img width="1280" height="2856" alt="image" src="https://github.com/user-attachments/assets/74a669b1-aa30-4083-ad49-7e411d51ebb8" />
-
-<img width="1280" height="2856" alt="image" src="https://github.com/user-attachments/assets/0391f0c9-a757-4120-b1ce-8c7415637f8e" />
+<img width="1280" height="2856" alt="image" src="https://github.com/user-attachments/assets/4226c5ad-4d18-404c-b570-2437c50e32a9" />
 
 Color & Icon Selection
-![Screenshot of the dialog for selecting vehicle icons and route colors.]<img width="1280" height="2856" alt="image" src="https://github.com/user-attachments/assets/13784a87-3549-42b7-b529-f8791bdddca3" />
+<img width="1280" height="2856" alt="image" src="https://github.com/user-attachments/assets/44deb33b-4804-4d4b-8bfb-c43581451e33" />
 
 🚀 Getting Started
 Prerequisites
