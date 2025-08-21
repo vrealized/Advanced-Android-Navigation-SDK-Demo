@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_controls_panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:padding="8dp"
+    android:background="#CC000000"
+    tools:context=".NavViewActivity">
+
+    <!-- 第一行 -->
+    <Button android:id="@+id/button_start_navigation" style="@style/NavControlButton" android:text="开始导航" />
+    <Button android:id="@+id/button_start_simulation" style="@style/NavControlButton" android:text="模拟导航" />
+    <Button android:id="@+id/button_toggle_voice" style="@style/NavControlButton" android:text="关闭语音" />
+    <Button android:id="@+id/button_toggle_camera_view" style="@style/NavControlButton" android:text="调整视角" />
+
+    <!-- 第二行 -->
+    <Button android:id="@+id/button_toggle_speed_limit" style="@style/NavControlButton" android:text="显示限速" />
+    <Button android:id="@+id/button_toggle_progress_bar" style="@style/NavControlButton" android:text="显示进度条" />
+    <Button android:id="@+id/button_toggle_traffic_layer" style="@style/NavControlButton" android:text="显示路况" />
+    <Button android:id="@+id/button_toggle_traffic_lights" style="@style/NavControlButton" android:text="显示红绿灯" />
+
+    <!-- 第三行 -->
+    <Button android:id="@+id/button_style_route" style="@style/NavControlButton" android:text="路线颜色" />
+    <Button android:id="@+id/button_change_vehicle_icon" style="@style/NavControlButton" android:text="更换图标" />
+    <Button android:id="@+id/button_toggle_night_mode" style="@style/NavControlButton" android:text="日夜模式" />
+    <Space style="@style/NavControlButton" />
+
+
+    <!-- 留空三个位置以保持对齐 -->
+<!--    <Space style="@style/NavControlButton" />-->
+<!--    <Space style="@style/NavControlButton" />-->
+<!--    <Space style="@style/NavControlButton" />-->
+
+</GridLayout>

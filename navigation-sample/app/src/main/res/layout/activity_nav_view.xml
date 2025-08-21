@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- NavigationView 作为最底层的背景 -->
+    <com.google.android.libraries.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--
+      [ADDED]
+      用于显示路线详情列表的容器。默认隐藏。
+      它包含一个关闭按钮。
+    -->
+    <FrameLayout
+        android:id="@+id/directions_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="#FFFFFF">
+
+        <!-- DirectionsListView 将通过代码动态添加到这里 -->
+
+        <ImageButton
+            android:id="@+id/close_directions_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="top|end"
+            android:layout_margin="8dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="关闭路线详情"/>
+
+    </FrameLayout>
+
+
+    <!-- 起点-终点输入面板，浮动在顶部 -->
+    <include
+        android:id="@+id/origin_destination_card"
+        layout="@layout/origin_destination_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <!--
+      底部控制面板，通过代码设置到FOOTER安全区
+      (XML中不再直接包含)
+    -->
+
+</RelativeLayout>

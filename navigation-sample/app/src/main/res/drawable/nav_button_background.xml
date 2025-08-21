@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 按钮使用的黄色背景，您可以根据需要调整颜色 -->
+    <solid android:color="#FFEB3B" />
+    <!-- 圆角半径，让按钮看起来是胶囊形状 -->
+    <corners android:radius="28dp" />
+</shape>

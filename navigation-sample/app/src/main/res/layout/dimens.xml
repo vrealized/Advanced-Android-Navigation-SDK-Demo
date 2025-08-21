@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 估算的底部控制面板高度，您可以根据实际情况微调 -->
+    <dimen name="bottom_panel_height">180dp</dimen>
+</resources>
